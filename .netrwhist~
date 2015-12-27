@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/badmanski/Projects/lambda-globalmouth-sms-delivery'
+let g:netrw_dirhist_2='/Users/badmanski/Projects/abahn'
+let g:netrw_dirhist_3='/Users/badmanski/Projects/folkefinans/junction'
+let g:netrw_dirhist_4='/Users/badmanski/Projects/abahn'
+let g:netrw_dirhist_5='/Users/badmanski/Projects/folkefinans/junction'
