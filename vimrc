@@ -52,9 +52,8 @@ noremap <Leader>rt :!ctags -R --languages=ruby --exclude=.git
       \ --exclude=log . $(bundle list --paths)<CR><CR>
 noremap <Leader>j <C-]>
 noremap <Leader>k <C-t>
-noremap <Leader>t :tabe
+noremap <Leader>t :tabe<CR>
 noremap <Leader>n :NERDTreeToggle<CR>
-noremap <Leader>p :CtrlP<CR>
 noremap <Leader>f :Ag
 " Split navigation
 noremap <C-J> <C-W><C-J>
