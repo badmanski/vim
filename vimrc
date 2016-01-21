@@ -21,6 +21,10 @@ set shiftwidth=2
 set softtabstop=2
 set smartindent
 
+" Formats for extensions
+au BufRead,BufNewFile *.jbuilder setfiletype ruby
+autocmd FileType ruby compiler ruby
+
 " Autocomplete
 filetype plugin indent on
 set omnifunc=syntaxcomplete#Complete
@@ -56,10 +60,10 @@ noremap <Leader>t :tabe<CR>
 noremap <Leader>n :NERDTreeToggle<CR>
 noremap <Leader>f :Ag
 " Split navigation
+noremap <C-H> <C-W><C-H>
 noremap <C-J> <C-W><C-J>
 noremap <C-K> <C-W><C-K>
 noremap <C-L> <C-W><C-L>
-noremap <C-H> <C-W><C-H>
 " Tabs navigation
 noremap <Leader>[ gT
 noremap <Leader>] gt
