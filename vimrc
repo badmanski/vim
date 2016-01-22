@@ -21,9 +21,9 @@ set shiftwidth=2
 set softtabstop=2
 set smartindent
 
-" Formats for extensions
+" Autocommands
 au BufRead,BufNewFile *.jbuilder setfiletype ruby
-autocmd FileType ruby compiler ruby
+au FileType ruby compiler ruby
 
 " Autocomplete
 filetype plugin indent on
