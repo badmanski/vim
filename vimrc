@@ -69,6 +69,10 @@ noremap <C-L> <C-W><C-L>
 noremap <Leader>[ gT
 noremap <Leader>] gt
 
+" Airline
+set laststatus=2
+let g:airline_powerline_fonts = 1
+
 " Plugins loading with pathogen
 execute pathogen#infect()
 
