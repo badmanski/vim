@@ -74,6 +74,9 @@ noremap <Leader>] gt
 set laststatus=2
 let g:airline_powerline_fonts = 1
 
+" Fugitive
+set diffopt+=vertical
+
 " Plugins loading with pathogen
 execute pathogen#infect()
 
