@@ -77,6 +77,9 @@ let g:airline_powerline_fonts = 1
 " Fugitive
 set diffopt+=vertical
 
+" CtrlP
+set wildignore+=*/tmp/*,*.log
+
 " Plugins loading with pathogen
 execute pathogen#infect()
 
