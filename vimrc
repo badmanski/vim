@@ -1,6 +1,9 @@
 " Forces to use vim settings rather than vi settings
 set nocompatible
 
+" Plugins loading with pathogen
+execute pathogen#infect()
+
 " Tweak backspace behaviour
 set backspace=indent,eol,start
 
@@ -79,9 +82,6 @@ set diffopt+=vertical
 
 " CtrlP
 set wildignore+=*/tmp/*,*.log
-
-" Plugins loading with pathogen
-execute pathogen#infect()
 
 " TODO:
 " - rails plugin
