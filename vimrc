@@ -11,6 +11,7 @@ colorscheme onedark
 set background=light
 
 set relativenumber
+set number
 
 set ignorecase
 
