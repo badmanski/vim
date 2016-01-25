@@ -4,7 +4,11 @@ set nocompatible
 " Tweak backspace behaviour
 set backspace=indent,eol,start
 
+" Background color scheme
 syntax on
+set t_Co=256
+colorscheme onedark
+set background=light
 
 set relativenumber
 
@@ -31,9 +35,6 @@ set omnifunc=syntaxcomplete#Complete
 
 " Scroll past end / beginning
 set scrolloff=5
-
-" Background color scheme
-set background=dark
 
 " Automatic file reload
 set autoread
