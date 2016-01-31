@@ -15,6 +15,8 @@ set background=dark
 set relativenumber
 set number
 
+" Search settings
+set nohlsearch
 set ignorecase
 
 " Ruler and color column
