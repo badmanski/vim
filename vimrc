@@ -90,6 +90,10 @@ set diffopt+=vertical
 " CtrlP
 set wildignore+=*/tmp/*,*.log
 
+if has('nvim')
+  tnoremap <Leader>e <C-\><C-n>
+endif
+
 " TODO:
 " - rails plugin
 " - enable oh-my-zsh commands
