@@ -28,6 +28,10 @@ set shiftwidth=2
 set softtabstop=2
 set smartindent
 
+" Disable swap files and backups
+set noswapfile
+set nobackup
+
 " Autocommands
 au BufRead,BufNewFile *.jbuilder setfiletype ruby
 au FileType ruby compiler ruby
