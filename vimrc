@@ -32,6 +32,10 @@ set smartindent
 set noswapfile
 set nobackup
 
+" Configure splits
+set splitright
+set splitbelow
+
 " Autocommands
 au BufRead,BufNewFile *.jbuilder setfiletype ruby
 au FileType ruby compiler ruby
