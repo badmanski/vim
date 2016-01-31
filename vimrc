@@ -10,8 +10,7 @@ set backspace=indent,eol,start
 " Background color scheme
 syntax on
 set t_Co=256
-colorscheme onedark
-set background=light
+set background=dark
 
 set relativenumber
 set number
