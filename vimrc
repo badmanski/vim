@@ -7,6 +7,9 @@ execute pathogen#infect()
 " Tweak backspace behaviour
 set backspace=indent,eol,start
 
+" Enable mouse
+set mouse=a
+
 " Background color scheme
 syntax on
 set t_Co=256
@@ -18,6 +21,7 @@ set number
 " Search settings
 set nohlsearch
 set ignorecase
+set incsearch
 
 " Ruler and color column
 set ruler
@@ -49,8 +53,9 @@ set omnifunc=syntaxcomplete#Complete
 " Scroll past end / beginning
 set scrolloff=5
 
-" Automatic file reload
+" Automatic file read / write
 set autoread
+set autowrite
 
 " Enable shared clipboard
 set clipboard=unnamed
