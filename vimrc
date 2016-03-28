@@ -14,6 +14,7 @@ set mouse=a
 syntax on
 set t_Co=256
 set background=dark
+colorscheme onedark
 
 set relativenumber
 set number
