@@ -27,7 +27,7 @@ set incsearch
 " Ruler and color column
 set ruler
 set colorcolumn=80
-highlight ColorColumn ctermbg=8
+highlight ColorColumn ctermbg=236
 
 " Indentation
 set expandtab
