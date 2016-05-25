@@ -109,7 +109,7 @@ if has('nvim')
   tnoremap <Leader>e <C-\><C-n>
 endif
 
-" Enable for light mode
+" Uncomment to enable light mode
 
 "colorscheme github
 "let g:airline_theme='base16'
