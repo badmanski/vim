@@ -64,6 +64,12 @@ set clipboard=unnamed
 " Flexible window splits
 set winwidth=84
 
+" Wait to redraw
+set lazyredraw
+
+" Performance boost
+set ttyfast
+
 " Disable arrow keys
 noremap <Up> <NOP>
 noremap <Down> <NOP>
@@ -90,7 +96,7 @@ noremap <Leader>] gt
 
 " Airline
 set laststatus=2
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts=1
 
 " Fugitive
 set diffopt+=vertical
