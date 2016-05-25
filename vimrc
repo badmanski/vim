@@ -112,7 +112,7 @@ endif
 " Enable for light mode
 
 "colorscheme github
-"AirlineTheme base16
+"let g:airline_theme='base16'
 
 " TODO:
 " - rails plugin
