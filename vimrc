@@ -109,6 +109,11 @@ if has('nvim')
   tnoremap <Leader>e <C-\><C-n>
 endif
 
+" Enable for light mode
+
+"colorscheme github
+"AirlineTheme base16
+
 " TODO:
 " - rails plugin
 " - enable oh-my-zsh commands
