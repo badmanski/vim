@@ -96,6 +96,7 @@ noremap <Leader>] gt
 
 " Airline
 set laststatus=2
+set noshowmode
 let g:airline_powerline_fonts=1
 let g:airline_theme='bubblegum'
 
