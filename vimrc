@@ -1,8 +1,32 @@
 " Forces to use vim settings rather than vi settings
 set nocompatible
 
-" Plugins loading with pathogen
-execute pathogen#infect()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'rking/ag.vim'
+Plugin 'kylef/apiblueprint.vim'
+Plugin 'jiangmiao/auto-pairs'
+Plugin 'kien/ctrlp.vim'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'joshdick/onedark.vim'
+Plugin 'scrooloose/syntastic'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'tpope/vim-bundler'
+Plugin 'kchmck/vim-coffee-script'
+Plugin 'tpope/vim-endwise'
+Plugin 'tpope/vim-fugitive'
+Plugin 'airblade/vim-gitgutter'
+Plugin 'endel/vim-github-colorscheme'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-surround'
+
+call vundle#end()
 
 " Tweak backspace behaviour
 set backspace=indent,eol,start
@@ -114,7 +138,3 @@ endif
 
 "colorscheme github
 "let g:airline_theme='base16'
-
-" TODO:
-" - rails plugin
-" - enable oh-my-zsh commands
