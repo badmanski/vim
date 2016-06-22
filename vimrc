@@ -25,6 +25,7 @@ Plugin 'endel/vim-github-colorscheme'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
+Plugin 'Valloric/YouCompleteMe'
 
 call vundle#end()
 
@@ -123,6 +124,10 @@ set laststatus=2
 set noshowmode
 let g:airline_powerline_fonts=1
 let g:airline_theme='bubblegum'
+
+" YCM
+let g:ycm_key_list_select_completion = ['<TAB>', '<Down>', '<C-N>']
+let g:ycm_key_list_previous_completion = ['<S-TAB>', '<Up>', '<C-P>']
 
 " Fugitive
 set diffopt+=vertical
