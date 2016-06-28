@@ -12,7 +12,6 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'scrooloose/nerdcommenter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
-Plugin 'joshdick/onedark.vim'
 Plugin 'scrooloose/syntastic'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
@@ -21,11 +20,11 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'tpope/vim-endwise'
 Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'endel/vim-github-colorscheme'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'altercation/vim-colors-solarized'
 
 call vundle#end()
 
@@ -37,9 +36,8 @@ set mouse=a
 
 " Background color scheme
 syntax on
-set t_Co=256
 set background=dark
-colorscheme onedark
+colorscheme solarized
 
 set relativenumber
 set number
@@ -123,7 +121,7 @@ noremap <Leader>] gt
 set laststatus=2
 set noshowmode
 let g:airline_powerline_fonts=1
-let g:airline_theme='bubblegum'
+let g:airline_theme='solarized'
 
 " YCM
 let g:ycm_key_list_select_completion = ['<TAB>', '<Down>', '<C-N>']
@@ -138,8 +136,3 @@ set wildignore+=*/tmp/*,*.log
 if has('nvim')
   tnoremap <Leader>e <C-\><C-n>
 endif
-
-" Uncomment to enable light mode
-
-"colorscheme github
-"let g:airline_theme='base16'
