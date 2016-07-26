@@ -25,6 +25,9 @@ Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'altercation/vim-colors-solarized'
+Plugin 'joshdick/onedark.vim'
+Plugin 'joshdick/airline-onedark.vim'
+Plugin 'endel/vim-github-colorscheme'
 Plugin 'junegunn/vim-easy-align'
 
 call vundle#end()
