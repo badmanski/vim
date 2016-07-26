@@ -40,8 +40,8 @@ set mouse=a
 
 " Background color scheme
 syntax on
-set background=dark
-colorscheme solarized
+set background=light
+colorscheme onedark
 
 set relativenumber
 set number
@@ -124,7 +124,7 @@ noremap <Leader>] gt
 set laststatus=2
 set noshowmode
 let g:airline_powerline_fonts=1
-let g:airline_theme='solarized'
+let g:airline_theme='onedark'
 
 " YCM
 let g:ycm_key_list_select_completion = ['<TAB>', '<Down>', '<C-N>']
