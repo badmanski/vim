@@ -30,6 +30,10 @@ Plugin 'joshdick/airline-onedark.vim'
 Plugin 'endel/vim-github-colorscheme'
 Plugin 'junegunn/vim-easy-align'
 Plugin 'vim-scripts/Tabmerge'
+Plugin 'MarcWeber/vim-addon-mw-utils'
+Plugin 'tomtom/tlib_vim'
+Plugin 'garbas/vim-snipmate'
+Plugin 'honza/vim-snippets'
 
 call vundle#end()
 
