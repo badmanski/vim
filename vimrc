@@ -29,6 +29,7 @@ Plugin 'joshdick/onedark.vim'
 Plugin 'joshdick/airline-onedark.vim'
 Plugin 'endel/vim-github-colorscheme'
 Plugin 'junegunn/vim-easy-align'
+Plugin 'vim-scripts/Tabmerge'
 
 call vundle#end()
 
