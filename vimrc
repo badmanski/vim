@@ -23,7 +23,7 @@ Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
 Plugin 'tpope/vim-surround'
-Plugin 'Valloric/YouCompleteMe'
+Plugin 'ervandew/supertab'
 Plugin 'altercation/vim-colors-solarized'
 Plugin 'joshdick/onedark.vim'
 Plugin 'joshdick/airline-onedark.vim'
@@ -120,21 +120,21 @@ noremap <C-L> <C-W><C-L>
 noremap <Leader>[ gT
 noremap <Leader>] gt
 
+" Supertab
+inoremap <Tab> <C-P>
+
 " Airline
 set laststatus=2
 set noshowmode
 let g:airline_powerline_fonts=1
 let g:airline_theme='onedark'
 
-" YCM
-let g:ycm_key_list_select_completion = ['<TAB>', '<Down>', '<C-N>']
-let g:ycm_key_list_previous_completion = ['<S-TAB>', '<Up>', '<C-P>']
-
 " Fugitive
 set diffopt+=vertical
 
 " CtrlP
 set wildignore+=*/tmp/*,*.log
+set tags=./tags;
 
 if has('nvim')
   tnoremap <Leader>e <C-\><C-n>
