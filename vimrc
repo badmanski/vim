@@ -45,8 +45,14 @@ set mouse=a
 
 " Background color scheme
 syntax on
-set background=light
+set background=dark
 colorscheme onedark
+
+" Airline
+set laststatus=2
+set noshowmode
+let g:airline_powerline_fonts=1
+let g:airline_theme='onedark'
 
 set relativenumber
 set number
@@ -127,12 +133,6 @@ noremap <Leader>] gt
 
 " Supertab
 inoremap <Tab> <C-P>
-
-" Airline
-set laststatus=2
-set noshowmode
-let g:airline_powerline_fonts=1
-let g:airline_theme='onedark'
 
 " Fugitive
 set diffopt+=vertical
