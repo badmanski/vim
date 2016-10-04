@@ -122,6 +122,7 @@ noremap <Leader>k <C-t>
 noremap <Leader>t :tabe<CR>
 noremap <Leader>n :NERDTreeToggle<CR>
 noremap <Leader>f :Ag
+noremap <Leader>gl :Git log --oneline --decorate --graph<CR>
 " Split navigation
 noremap <C-H> <C-W><C-H>
 noremap <C-J> <C-W><C-J>
