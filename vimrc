@@ -54,6 +54,10 @@ set noshowmode
 let g:airline_powerline_fonts=1
 let g:airline_theme='onedark'
 
+" Nerdcommenter
+let g:NERDSpaceDelims = 1
+let g:NERDDefaultAlign = 'left'
+
 set relativenumber
 set number
 
