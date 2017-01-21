@@ -17,6 +17,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'Yggdroot/indentLine'
 Plugin 'tpope/vim-bundler'
 Plugin 'jiangmiao/auto-pairs'
 Plugin 'scrooloose/nerdcommenter'
@@ -78,6 +79,13 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 set smartindent
+
+" IndentLine
+let g:indentLine_enabled = 1
+let g:indentLine_color_term = 239
+
+" Invisible characters
+set list listchars=tab:»·,trail:·,nbsp:·
 
 " Disable swap files and backups
 set noswapfile
