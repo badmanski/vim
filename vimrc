@@ -8,6 +8,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'kylef/apiblueprint.vim'
 Plugin 'kchmck/vim-coffee-script'
+Plugin 'fatih/vim-go'
 Plugin 'vim-ruby/vim-ruby'
 Plugin 'tpope/vim-rails'
 
@@ -80,6 +81,9 @@ set expandtab
 set shiftwidth=2
 set softtabstop=2
 set smartindent
+
+" Adjust tabs for .go files
+autocmd BufNewFile,BufRead *.go setlocal noet ts=4 sw=4 sts=4 nolist
 
 " IndentLine
 let g:indentLine_enabled = 1
