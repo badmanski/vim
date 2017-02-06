@@ -34,6 +34,7 @@ Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
 Plugin 'janko-m/vim-test'
 Plugin 'rizzatti/dash.vim'
+Plugin 'mattn/emmet-vim'
 
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
