@@ -164,7 +164,7 @@ inoremap <Tab> <C-P>
 set diffopt+=vertical
 
 " CtrlP
-set wildignore+=*/tmp/*,*.log
+set wildignore+=*/tmp/*,*.log,node_modules
 set tags=./tags;
 
 if has('nvim')
