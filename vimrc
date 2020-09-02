@@ -83,6 +83,7 @@ set incsearch
 " Ruler and color column
 set ruler
 set colorcolumn=80
+" highlight ColorColumn ctermbg=darkgrey
 
 " Indentation
 set expandtab
@@ -134,6 +135,9 @@ set lazyredraw
 
 " Performance boost
 set ttyfast
+
+" Soft wrap
+set lbr
 
 " Disable arrow keys
 noremap <Up> <NOP>
