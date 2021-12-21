@@ -98,6 +98,9 @@ autocmd BufNewFile,BufRead *.go setlocal noet ts=4 sw=4 sts=4 nolist
 let g:indentLine_enabled = 1
 let g:indentLine_fileTypeExclude = ['json']
 
+" SnipMate
+let g:snipMate = { 'snippet_version' : 1 }
+
 " Invisible characters
 set list listchars=tab:»·,trail:·,nbsp:·
 
